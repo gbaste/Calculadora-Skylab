@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CalculatorJS</title>
+	<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+	<link rel="stylesheet" href="styles/calculadora.css">
+</head>
+<body>
+<h1><p>Skylab Calculator</p></h1>
+		<div class="square">
+			<input type="text" value="0" readonly id="resultsBox" maxlength="10" />
+		</div>
+		<div>
+			<button onclick="clearScreen('0')">C</button>
+			<button onclick="addNumbers('√');sumNumbersOnScreen('√');" id="sqrt">√</button>	
+		</div>
+		<div class="buttons">
+			<button onclick="addNumbers(9);sumNumbersOnScreen(9);" id="9" value="9">9</button>
+			<button onclick="addNumbers(6);sumNumbersOnScreen(6);" id="6" value="6">6</button>
+			<button onclick="addNumbers(3);sumNumbersOnScreen(3);" id="3" value="3">3</button>
+			<button onclick="addNumbers(0);sumNumbersOnScreen(0);" id="0" value="0">0</button>
+		</div>
+		<div class="buttons">
+			<button onclick="addNumbers(8);sumNumbersOnScreen(8);" id="8" value="8">8</button>
+			<button onclick="addNumbers(5);sumNumbersOnScreen(5);" id="5" value="5">5</button>
+			<button onclick="addNumbers(2);sumNumbersOnScreen(2);" id="2" value="2">2</button>
+			<button onclick="addNumbers('.');sumNumbersOnScreen('.');" id="comma" value=".">.</button>
+
+		</div>
+		<div class="buttons">
+			<button onclick="addNumbers(7);sumNumbersOnScreen(7);" id="7" value="7">7</button>
+			<button onclick="addNumbers(4);sumNumbersOnScreen(4);" id="4" value="4">4</button>
+			<button onclick="addNumbers(1);sumNumbersOnScreen(1);" id="1" value="1">1</button>
+			<button onclick="calculate()">=</button>
+
+		</div>
+		<div class="buttons">
+			<button onclick="addNumbers('/');sumNumbersOnScreen('/');" id="div" value="/">/</button>
+			<button onclick="addNumbers('*');sumNumbersOnScreen('*');" id="mult" value="*">*</button>
+			<button onclick="addNumbers('-');sumNumbersOnScreen('-');" id="rest" value="-">-</button>
+			<button onclick="addNumbers('+');sumNumbersOnScreen('+');" id="sum" value="+">+</button>
+		</div>
+
+
+		<p id="num1"></p>
+		<p id="num2"></p>
+
+		<script src="app/calculadora.js"></script>
+
+</body>
+</html>

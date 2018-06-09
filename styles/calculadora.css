@@ -1,0 +1,60 @@
+
+*{
+
+	font-family: 'VT323', monospace;
+
+}
+
+
+.buttons{
+	display: inline-block;
+	width: 50px;
+	font-size: 50px;
+}
+
+#sqrt{
+
+	font-size: 23px;
+}
+
+#mult{
+	background-image: url('https://d3c5s1hmka2e2b.cloudfront.net/uploads/topic/image/529/skylablogo.png');
+	background-position: center;
+	background-size: 28px;
+	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
+	margin-top: 10px;
+	color: transparent;
+}
+
+#resultsBox{
+	font-size: 35px;
+	border: solid 2px #d6d0d6;
+	width: 215px;
+	height: 65px;
+	margin-top: 12px;
+	background-color: #c8c8c8;
+}
+
+body{
+
+	padding-left: 40%;
+	background-color: #333333;
+}
+
+
+button {
+	margin-top: 10px;
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	background-color: #3CA9DE;
+}
+
+h1{
+	color: wheat;
+	font-size: 48px;
+	margin-left: -40px;
+}
+
